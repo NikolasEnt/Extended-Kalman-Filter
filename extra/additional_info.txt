@@ -1,0 +1,180 @@
+nike@tux:~> cat /proc/cpuinfo
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 925 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 2814.031
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate npt lbrv svm_lock nrip_save
+bogomips	: 5628.06
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 925 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 2814.031
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate npt lbrv svm_lock nrip_save
+bogomips	: 5628.06
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 925 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 2814.031
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate npt lbrv svm_lock nrip_save
+bogomips	: 5628.06
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 925 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 2814.031
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate npt lbrv svm_lock nrip_save
+bogomips	: 5628.06
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
+nike@tux:~> uname -a
+Linux tux 3.16.7-53-desktop #1 SMP PREEMPT Fri Dec 2 13:19:28 UTC 2016 (7b4a1f9) x86_64 x86_64 x86_64 GNU/Linux
+nike@tux:~> cat /etc/os-release
+NAME=openSUSE
+VERSION="13.2 (Harlequin)"
+VERSION_ID="13.2"
+PRETTY_NAME="openSUSE 13.2 (Harlequin) (x86_64)"
+ID=opensuse
+ANSI_COLOR="0;32"
+CPE_NAME="cpe:/o:opensuse:opensuse:13.2"
+BUG_REPORT_URL="https://bugs.opensuse.org"
+HOME_URL="https://opensuse.org/"
+ID_LIKE="suse"
+
+nike@tux:~> which cmake
+/usr/local/bin/cmake
+nike@tux:~> cmake --version
+cmake version 3.7.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+nike@tux:~> g++-6 -v
+Using built-in specs.
+COLLECT_GCC=g++-6
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/6/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada,go --enable-offload-targets=hsa --enable-checking=release --with-gxx-include-dir=/usr/include/c++/6 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --with-default-libstdcxx-abi=gcc4-compatible --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-6 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux
+Thread model: posix
+gcc version 6.3.1 20170202 [gcc-6-branch revision 245119] (SUSE Linux) 
+nike@tux:~> cd ./dl/SDC/proj6/Extended-Kalman-Filter/
+nike@tux:~/dl/SDC/proj6/Extended-Kalman-Filter> mkdir build
+nike@tux:~/dl/SDC/proj6/Extended-Kalman-Filter> cd  build
+nike@tux:~/dl/SDC/proj6/Extended-Kalman-Filter/build> cmake .. -DCMAKE_CXX_COMPILER="g++-6" -DCMAKE_CC_COMPILER="gcc-6"
+-- The C compiler identification is GNU 4.8.3
+-- The CXX compiler identification is GNU 6.3.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++-6
+-- Check for working CXX compiler: /usr/bin/g++-6 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nike/dl/SDC/proj6/Extended-Kalman-Filter/build
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CC_COMPILER
+
+
+nike@tux:~/dl/SDC/proj6/Extended-Kalman-Filter/build> make 
+Scanning dependencies of target ExtendedKF
+[ 20%] Building CXX object CMakeFiles/ExtendedKF.dir/src/FusionEKF.cpp.o
+[ 40%] Building CXX object CMakeFiles/ExtendedKF.dir/src/kalman_filter.cpp.o
+[ 60%] Building CXX object CMakeFiles/ExtendedKF.dir/src/main.cpp.o
+[ 80%] Building CXX object CMakeFiles/ExtendedKF.dir/src/tools.cpp.o
+[100%] Linking CXX executable ExtendedKF
+[100%] Built target ExtendedKF
+nike@tux:~/dl/SDC/proj6/Extended-Kalman-Filter/build> ls -F
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+ExtendedKF*
+Makefile
+nike@tux:~/dl/SDC/proj6/Extended-Kalman-Filter/build> ./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt ../results/output1.txt > ../results/input1.log
+nike@tux:~/dl/SDC/proj6/Extended-Kalman-Filter/build> ./ExtendedKF ../data/sample-laser-radar-measurement-data-2.txt ../results/output2.txt > ../results/input2.log
