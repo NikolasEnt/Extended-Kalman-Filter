@@ -4,11 +4,16 @@ This Project is the sixth task (Project 1 of Term 2) of the Udacity Self-Driving
 The project was created with the Udacity [Starter Code](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project).
 
 ## Content of this repo
-- `scr`  a directory with the project code
+- `scr`  a directory with the project code:
+  - `main.cpp` - reads in data, calls a function to run the Kalman filter, calls a function to calculate RMSE
+  - `FusionEKF.cpp` - initializes the filter, calls the predict function, calls the update function
+  - `kalman_filter.cpp`- defines the predict function, the update function for lidar, and the update function for radar
+  - `tools.cpp- function` to calculate RMSE and the Jacobian matrix
 - `data`  a directory with two input files, provided by Udacity
 - `results`  a directory with output and log files
 - `Docs` a directory with files formats description
 - [task.md](task.md) the task of the project by Udacity
+- `extra` a directory with detailed information used hardware and software (`extra/additional_info.txt` file) and screenshots of the final RMSE. 
 
 ## Result
 ![input 1 results](readme_img/plot1.png)
